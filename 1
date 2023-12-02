@@ -1,0 +1,11 @@
+A = imread('lena2.png');
+
+M1 = 0.1;
+M2 = 10;
+
+B = imresize(A,M1);
+C = imresize(A,M2,'nearest');
+
+figure(1); imshow(A);
+figure(2); imshow(B);
+figure(3); imshow(C);
