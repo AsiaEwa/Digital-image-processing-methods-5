@@ -1,0 +1,14 @@
+A = imread('lena2.png');
+
+M1 = 2;
+M2 = 4;
+M3 = 6;
+
+B = imresize(A,M1,'nearest');
+C = imresize(A,M2,'bilinear');
+D = imresize(A,M3,'bicubic');
+
+figure(1); imshow(A);
+figure(2); imshow(B);
+figure(3); imshow(C);
+figure(4); imshow(D);
