@@ -2,7 +2,9 @@
 ## Digital image interpolation methods
 
 A script using nearest neighbor interpolation
+
 orginal picture:
+
 ![image](https://github.com/AsiaEwa/Digital-image-processing-methods-5/assets/101841759/dcf4450a-c1f3-4701-be3e-829df114c7b5)
 
 X10:
